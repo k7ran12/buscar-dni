@@ -1,6 +1,0 @@
-RewriteEngine On
-
-# Redirige /buscar-dni-nombre-apellido.html a /buscar-dni-nombre-apellido
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^buscar-dni-nombre-apellido$ /buscar-dni-nombre-apellido.html [L]
