@@ -2,6 +2,15 @@
 <html lang="es">
 <head>
 </head>
+<style>
+    .container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+  }
+</style>
 <body>   
 </body>  
 <meta name=robots content=noindex />
@@ -9,7 +18,9 @@
 <script src="../assets/js/jwplayer.js"></script>
 <script> jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
 </script>
-<div id="player"></div>
+<div class="container">
+    <div id="player"></div>
+</div>
 <script>
 var playerInstance = jwplayer("player");
 
